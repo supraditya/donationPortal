@@ -6,6 +6,6 @@ A Blood Donation Portal Developed as part of a theory assignment for the course 
 - Clone Repository, move to C:\wamp64\www
 - Modify database credentials in all files
 - Start wampserver
-- Go to phpmyadmin, create database using .sql file
+- Go to phpmyadmin, import database from donation_schema.sql file
 - Go to localhost/[CLONED_FOLDER_NAME]/home.html
 - There you go!

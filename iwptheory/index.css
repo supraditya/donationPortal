@@ -1,0 +1,143 @@
+
+body
+{
+	font-family: Calibri Light;
+	background-color: #E0DFD5;
+}
+.sitenav
+{
+	display: flex;
+	align-items: baseline;
+	background-color: #F06543;
+}
+.header-shout
+{
+	font-size: 56px;
+	flex: 0.9;
+	color: white;
+	padding: 1% 2% 1% 2%;
+	/*margin-right: 10%;*/
+}
+.smaller-shout
+{
+	text-align: center;
+	font-size: 32px;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	/*border: solid 1px black;*/
+	justify-content: space-around;
+	width: 100% !important;
+	min-height: 73vh;
+	padding: 0% 3% 1% 3%;
+	border-radius: 6px !important;
+	margin-top: -2% !important;
+	/*box-shadow: 0px 6px 6px 6px #ddd;*/
+}
+.customCard
+{
+	transition: all 0.2s;
+	/*border: solid 1px black;*/
+	position: relative;
+	box-shadow: 0px 8px 8px 8px #ddd;
+	width: 45%;
+	min-width: 450px;
+	min-height: 350px;
+	border-radius: 6px;
+	text-align: center;
+	margin-top: 2%;
+}
+.cardText
+{
+	transition: all 0.2s;
+	margin-top: 15%;
+	font-size: 36px;
+	/*opacity: 0.8;*/
+}
+.iconStyle
+{
+	margin-top: 25%;
+	font-size: 128px;
+}
+.buttonStyle
+{
+	background-color: transparent;
+	border: none;
+}
+a
+{
+	text-decoration: none !important;
+	color: black !important;
+}
+.customCard:hover
+{
+	transition: all 0.2s;
+	background-color: #F06543;
+}
+.customCard:hover .cardText
+{
+	transition: all 0.2s;
+	color: white;
+}
+.customCard:hover .iconStyle
+{
+	transition: all 0.2s;
+	color: white;
+}
+.homeIconStyle
+{
+	/*flex: 2;*/
+	color: white;
+	font-size: 48px;
+}
+.donorForm
+{
+	margin-top: 2% !important;
+	margin: auto;
+	padding: 2% 15% 2% 15%;
+	height: 75vh;
+	width: 85%;
+	border-radius: 6px;
+	box-shadow: 0px 8px 8px 8px #ddd;
+}
+.radio-inline
+{
+	margin-right: 2%;
+}
+.centerDiv
+{
+	text-align: center;
+}
+.searchForm
+{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	margin: auto;
+	box-shadow: 0px 4px 4px 4px #ddd !important;
+	padding: 2% 8% 2% 2%;
+	border-radius: 0 0 6px 6px;
+}
+.resultsForm
+{
+	margin-top: 2% !important;
+	margin: auto;
+	padding: 2% 5% 2% 5%;
+	/*height: 75vh;*/
+	width: 85%;
+	border-radius: 6px;
+	box-shadow: 0px 6px 6px 6px #ddd;
+}
+.headerStyle
+{
+	color: white;
+	background-color: #F06543;
+	border-radius: 0 0 6px 6px !important;
+}
+.tableStyle
+{
+	/*border: solid 1px black;*/
+	border-radius: 6px !important;
+}
