@@ -3,9 +3,9 @@ A Blood Donation Portal Developed as part of a theory assignment for the course 
 
 ## Setup
 - Install Wampserver: https://www.wampserver.com/en/
-- Clone Repository, move to C:\wamp64\www
+- Clone Repository, move/copy iwptheory folder to C:\wamp64\www
 - Modify database credentials in all files
 - Start wampserver
 - Go to phpmyadmin, import database from donation_schema.sql file
-- Go to localhost/[CLONED_FOLDER_NAME]/home.html
+- Go to localhost/iwptheory/home.html
 - There you go!
